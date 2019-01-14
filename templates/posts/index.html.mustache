@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  {{{ common.head }}}
+  <body lang="en">
+    {{{ common.navbar }}}
+    <div class="container">
+      <div class="post">
+        <p class="post-title">{{ post.title }}</p>
+        <p class="post-meta">{{ post.date }}</p>
+        <div class="post-body">
+          {{{ post.content }}}
+        </div>
+        <p class="post-meta">Tags: {{ post.tags }}</p>
+      </div>
+    </div>
+  </body>
+</html>

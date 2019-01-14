@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  {{{ common.head }}}
+  <body lang="en">
+    {{{ common.navbar }}}
+    <div class="container">
+    {{ #post-snippets-date }}
+      <div class="post-homepage-item">
+        <a class="post-title" href="{{ url }}">{{ title }}</a>
+        <p class="post-meta">{{ date }}</p>
+        <p class="post-subtitle">{{ subtitle }}</p>
+      </div>
+    {{ /post-snippets-date }}
+    </div>
+  </body>
+</html>

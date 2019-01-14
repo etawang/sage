@@ -1,0 +1,31 @@
+.navbar {
+  margin-bottom: 1.0rem;
+}
+
+.navbar .container {
+  border-bottom: solid 1px;
+  overflow: hidden;
+}
+
+.navbar ul {
+  text-align: center;
+  float: right;
+  margin-top: 1.5rem;
+  margin-bottom: 1.0rem;
+}
+
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-left: 1.5rem;
+}
+
+.navbar img {
+  height: 3rem;
+  border-radius: 50%;
+  float: left;
+  top: 50%;
+  position: absolute;
+  transform: translate(0, -50%);
+}
